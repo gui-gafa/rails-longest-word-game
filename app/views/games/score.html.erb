@@ -1,0 +1,9 @@
+<h1>Results</h1>
+
+<div class="container">
+  <p>Message</p>
+  <%= @answer[:message] %>
+  <p>Score</p>
+  <%= sprintf('%.2f', @answer[:score]) %>
+  <%= link_to "Play Again", new_path %>
+</div>
